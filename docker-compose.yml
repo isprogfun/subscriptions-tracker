@@ -1,0 +1,7 @@
+version: "3.9"
+services:
+  web:
+    image: ghcr.io/isprogfun/subscriptions-tracker:latest
+    restart: on-failure
+    ports:
+      - "8080:8080"
